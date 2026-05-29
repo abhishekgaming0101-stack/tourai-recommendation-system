@@ -9,9 +9,3 @@ DATABASE_NAME = os.getenv("DATABASE_NAME", "touristdb")
 
 client = MongoClient(MONGO_URI)
 db = client[DATABASE_NAME]
-
-users_collection = db["users"]
-places_collection = db["places"]
-reviews_collection = db["reviews"]
-ratings_collection = db["ratings"]
-behavior_collection = db["behavior"]
