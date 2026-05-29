@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pymongo
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+python-dotenv
+httpx
+bcrypt==4.0.1
